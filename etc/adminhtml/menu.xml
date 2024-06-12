@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Ssquare_Whatsapp::whatsapp_chat" title="WhatsApp Chat" module="Ssquare_Whatsapp" sortOrder="100" parent="Magento_Backend::stores" resource="Magento_Backend::content" />
+        <add id="Ssquare_Whatsapp::config" title="Configuration" module="Ssquare_Whatsapp" sortOrder="10" action="adminhtml/system_config/edit/section/whatsapp_chat" parent="Ssquare_Whatsapp::whatsapp_chat" resource="Magento_Backend::content"/>
+    </menu>
+</config>
