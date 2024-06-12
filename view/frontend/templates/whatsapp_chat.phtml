@@ -1,6 +1,5 @@
 <!-- WhatsApp Chat Box HTML -->
 <div class="whatsapp-chat-box">
-    <p>Receiver Number: <?php echo $block->getReceiverNumber(); ?></p>
     <a href="https://wa.me/<?php echo $block->getReceiverNumber(); ?>/?text=<?php echo $block->getReceiverMessage(); ?>" target="_blank">
         <img src="<?php echo $block->getViewFileUrl('Ssquare_Whatsapp::images/whatsapp-icon.png'); ?>" alt="WhatsApp Icon" class="whatsapp-icon"/>
     </a>
